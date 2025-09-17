@@ -1,0 +1,16 @@
+<mujoco model="dog">
+  <compiler angle="degree"/>
+  <option timestep="0.001" gravity="0 0 -9.81"/>
+
+  <default>
+    <equality solref="0.005 1" />
+    <geom type="box" size="0.05 0.02 0.02" density="500" rgba="0.2 0.7 0.2 1"/>
+    <joint limited="true" range="-300 300" damping="0.2" stiffness="5"/>
+    <motor ctrllimited="true" ctrlrange="-3 3"/>
+  </default>
+
+  <worldbody>
+    <!-- main body -->
+    <body name="main_body" pos=" 0 0 26">
+  </worldbody>
+</mujoco>
