@@ -20,10 +20,10 @@
         <joint name="fl_shoulder_yaw" type="hinge" axis="1 0 0" pos="0.0 0 0"/>
         <geom name="fl_shoulder_geom" type="box" size="0.05 0.02 0.02" pos="0.0 0.0 0.0"/>
         <body name="fl_elbow" pos="0.0 0.02 -0.07">
-          <joint name="fl_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+          <joint name="fl_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
           <geom name="fl_elbow_geom" type="box" size="0.01 0.01 0.05" pos="0.0 0.0 0.0"/>
           <body name="fl_arm" pos="0.0 -0.02 -0.10">
-            <joint name="fl_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+            <joint name="fl_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
             <geom name="fl_arm_geom" type="box" size="0.01 0.01 0.05" pos="0 0 0"/>
             <body name="fl_foot" pos="0.0 0.0 -0.05">
               <geom name="fl_foot_geom" type="sphere" size="0.02" pos="0 0 0"/>
@@ -37,10 +37,10 @@
         <joint name="bl_shoulder_yaw" type="hinge" axis="1 0 0" pos="0.0 0 0"/>
         <geom name="bl_shoulder_geom" type="box" size="0.05 0.02 0.02" pos="0 0 0"/>
         <body name="bl_elbow" pos="0.0 0.02 -0.07">
-          <joint name="bl_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+          <joint name="bl_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
           <geom name="bl_elbow_geom" type="box" size="0.01 0.01 0.05" pos="0 0 0"/>
           <body name="bl_arm" pos="0.0 -0.02 -0.10">
-            <joint name="bl_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+            <joint name="bl_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
             <geom name="bl_arm_geom" type="box" size="0.01 0.01 0.05" pos="0 0 0"/>
             <body name="bl_foot" pos="0.0 0.0 -0.05">
               <geom name="bl_foot_geom" type="sphere" size="0.02" pos="0 0 0"/>
@@ -54,10 +54,10 @@
         <joint name="fr_shoulder_yaw" type="hinge" axis="1 0 0" pos="0.0 0 0"/>
         <geom name="fr_shoulder_geom" type="box" size="0.05 0.02 0.02" pos="0 0 0"/>
         <body name="fr_elbow" pos="0.00 -0.02 -0.07">
-          <joint name="fr_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+          <joint name="fr_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
           <geom name="fr_elbow_geom" type="box" size="0.01 0.01 0.05" pos="0 0 0"/>
           <body name="fr_arm" pos="0.0 0.02 -0.10">
-            <joint name="fr_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+            <joint name="fr_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
             <geom name="fr_arm_geom" type="box" size="0.01 0.01 0.05" pos="0 0 0"/>
             <body name="fr_foot" pos="0.0 0.0 -0.05">
               <geom name="fr_foot_geom" type="sphere" size="0.02" pos="0 0 0"/>
@@ -71,10 +71,10 @@
         <joint name="br_shoulder_yaw" type="hinge" axis="1 0 0" pos="0.0 0 0"/>
         <geom name="br_shoulder_geom" type="box" size="0.05 0.02 0.02" pos="0 0 0"/>
         <body name="br_elbow" pos="0.0 -0.02 -0.07">
-          <joint name="br_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+          <joint name="br_elbow_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
           <geom name="br_elbow_geom" type="box" size="0.01 0.01 0.05" pos="0 0 0"/>
           <body name="br_arm" pos="0.0 0.02 -0.10">
-            <joint name="br_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0"/>
+            <joint name="br_arm_pitch" type="hinge" axis="0 1 0" pos="0.0 0 0.05"/>
             <geom name="br_arm_geom" type="box" size="0.01 0.01 0.05" pos="0 0 0"/>
             <body name="br_foot" pos="0.0 0.0 -0.05">
               <geom name="br_foot_geom" type="sphere" size="0.02" pos="0 0 0"/>
