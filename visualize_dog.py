@@ -5,7 +5,7 @@ from mujoco import viewer
 import numpy as np
 
 
-def gait(t, freq=1.0, phase=0.0):
+def gait(t, freq=3.0, phase=0.0):
   return np.sin(2 * np.pi * freq * t + phase)
   
 def walk_dog():
@@ -23,7 +23,7 @@ def walk_dog():
   # gait parameters
   freq = 3
   amp_elbow = 4
-  amp_arm = -0.7
+  amp_arm = -0.5
 
   viewer2 = viewer.launch_passive(model, data)
   while True:
